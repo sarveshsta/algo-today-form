@@ -52,9 +52,7 @@ MIDDLEWARE = [
     'corsheaders.middleware.CorsMiddleware'
 ]
 
-CORS_ALLOWED_ORIGINS = [
-    "http://algotoday.com","http://localhost:80", "http://127.0.0.1:80", "*"  # Add your React app's URL
-]
+CORS_ALLOWED_ORIGINS = []
 
 ROOT_URLCONF = 'algo_trade_form.urls'
 
